@@ -16,6 +16,9 @@
 		83F3FFA12063850800924115 /* AsQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3FFA02063850800924115 /* AsQTests.swift */; };
 		83F3FFAC2063850800924115 /* AsQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3FFAB2063850800924115 /* AsQUITests.swift */; };
 		83F3FFBA20639B5800924115 /* MyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3FFB920639B5800924115 /* MyPage.swift */; };
+		83F3FFF8206A438D00924115 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3FFF7206A438D00924115 /* TimeLineViewController.swift */; };
+		83F3FFFA206A5C8400924115 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3FFF9206A5C8400924115 /* User.swift */; };
+		83F3FFFC206A5CDA00924115 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3FFFB206A5CDA00924115 /* Tweet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		83F3FFAB2063850800924115 /* AsQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsQUITests.swift; sourceTree = "<group>"; };
 		83F3FFAD2063850800924115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83F3FFB920639B5800924115 /* MyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPage.swift; sourceTree = "<group>"; };
+		83F3FFF7206A438D00924115 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		83F3FFF9206A5C8400924115 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		83F3FFFB206A5CDA00924115 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,10 @@
 				83F3FF8B2063850700924115 /* FirstViewController.swift */,
 				83F3FF8D2063850700924115 /* SecondViewController.swift */,
 				83F3FF8F2063850700924115 /* Main.storyboard */,
+				83F3FFF9206A5C8400924115 /* User.swift */,
+				83F3FFFB206A5CDA00924115 /* Tweet.swift */,
 				83F3FFB920639B5800924115 /* MyPage.swift */,
+				83F3FFF7206A438D00924115 /* TimeLineViewController.swift */,
 				83F3FF922063850700924115 /* Assets.xcassets */,
 				83F3FF942063850700924115 /* LaunchScreen.storyboard */,
 				83F3FF972063850800924115 /* Info.plist */,
@@ -266,8 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				83F3FF8E2063850700924115 /* SecondViewController.swift in Sources */,
+				83F3FFFA206A5C8400924115 /* User.swift in Sources */,
 				83F3FF8A2063850700924115 /* AppDelegate.swift in Sources */,
+				83F3FFFC206A5CDA00924115 /* Tweet.swift in Sources */,
 				83F3FFBA20639B5800924115 /* MyPage.swift in Sources */,
+				83F3FFF8206A438D00924115 /* TimeLineViewController.swift in Sources */,
 				83F3FF8C2063850700924115 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,9 +447,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ALBSGY546;
 				INFOPLIST_FILE = AsQ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sakamoto.AsQ;
+				PRODUCT_BUNDLE_IDENTIFIER = "nsfgdjpgbdh20-yahoo.co.jp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,9 +462,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ALBSGY546;
 				INFOPLIST_FILE = AsQ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sakamoto.AsQ;
+				PRODUCT_BUNDLE_IDENTIFIER = "nsfgdjpgbdh20-yahoo.co.jp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
